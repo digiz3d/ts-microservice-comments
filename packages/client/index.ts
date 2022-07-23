@@ -9,6 +9,6 @@ if (!SERVICE_URL) {
 
 export default class CommentsClient {
   async sendMessage(message: Message) {
-    await axios.post(ENDPOINTS.ADD_SHOW_COMMENT, message)
+    await axios.post(SERVICE_URL + ENDPOINTS.ADD_SHOW_COMMENT, message)
   }
 }
