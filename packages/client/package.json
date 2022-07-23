@@ -1,6 +1,6 @@
 {
   "name": "@digiz3dtest/microservice-comments-client",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "digiz3d",
@@ -9,7 +9,7 @@
     "prepublish": "tsc"
   },
   "dependencies": {
-    "@digiz3dtest/microservice-comments-common": "^1.0.0",
+    "@digiz3dtest/microservice-comments-common": "^1.0.2",
     "axios": "^0.27.2"
   },
   "devDependencies": {
