@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/digiz3d/ts-microservice-comments/compare/v1.1.0...v1.1.1) (2022-07-23)
+
+
+### Bug Fixes
+
+* **client:** properly get messages ([625472f](https://github.com/digiz3d/ts-microservice-comments/commit/625472f5f2dee1eaa60f3a3e169b2136411a330a))
+
+
+
+
+
 # [1.1.0](https://github.com/digiz3d/ts-microservice-comments/compare/v1.0.4...v1.1.0) (2022-07-23)
 
 
