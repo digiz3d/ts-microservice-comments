@@ -13,6 +13,9 @@ export default class CommentsClient {
   }
 
   async getMessages() {
-    await axios.get(SERVICE_URL + ENDPOINTS.GET_SHOW_COMMENTS)
+    const { data } = await axios.get<Message[]>(
+      SERVICE_URL + ENDPOINTS.GET_SHOW_COMMENTS
+    )
+    return data
   }
 }
