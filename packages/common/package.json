@@ -1,0 +1,19 @@
+{
+  "name": "@digiz3dtest/microservice-comments-common",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "digiz3d",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "fc56a1c18e48442897711c475473da196584627e"
+}
