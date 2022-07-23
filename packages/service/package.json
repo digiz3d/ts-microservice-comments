@@ -1,5 +1,10 @@
 {
   "name": "@digiz3dtest/microservice-comments-service",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digiz3d/ts-microservice-comments.git",
+    "directory": "packages/service"
+  },
   "version": "1.0.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
