@@ -5,7 +5,7 @@
     "url": "https://github.com/digiz3d/ts-microservice-comments.git",
     "directory": "packages/common"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "digiz3d",
