@@ -29,11 +29,11 @@ fastify.post(ENDPOINTS.ADD_SHOW_COMMENT, async (request, reply) => {
 
   comments.push(newComment)
   eventEmitter.emit('show-comment-created', StringifyComment(newComment))
-  return { comment: newComment }
+  return reply.send(newComment)
 })
 
 fastify.get(ENDPOINTS.GET_SHOW_COMMENTS, async (request, reply) => {
-  return reply.send({ comments })
+  return reply.send(comments)
 })
 
 fastify.listen({ port: PORT }, (err, address) => {
