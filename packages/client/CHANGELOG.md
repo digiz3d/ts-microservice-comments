@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/digiz3d/ts-microservice-comments/compare/v1.1.2...v1.2.0) (2022-07-24)
+
+
+### Features
+
+* use kafka as messaging service ([5e7d967](https://github.com/digiz3d/ts-microservice-comments/commit/5e7d967f1eccb59ffa92e16aa0a4fd7e61ff3dbf))
+
+
+
+
+
 ## [1.1.1](https://github.com/digiz3d/ts-microservice-comments/compare/v1.1.0...v1.1.1) (2022-07-23)
 
 
