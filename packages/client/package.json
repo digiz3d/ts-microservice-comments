@@ -17,7 +17,6 @@
   "dependencies": {
     "@digiz3dtest/microservice-comments-common": "^1.2.0",
     "axios": "^0.27.2",
-    "dotenv": "^16.0.1",
     "kafkajs": "^2.1.0",
     "nanoid": "^4.0.0"
   },
