@@ -16,3 +16,7 @@ export enum ENDPOINTS {
   ADD_SHOW_COMMENT = '/show-comments',
   GET_SHOW_COMMENTS = '/show-comments',
 }
+
+export enum TOPIC_FORMATS {
+  SHOW_COMMENT_CREATED = 'show-comment-created.showId-%s',
+}
