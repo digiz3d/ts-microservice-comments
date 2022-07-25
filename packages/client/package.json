@@ -5,7 +5,7 @@
     "url": "https://github.com/digiz3d/ts-microservice-comments.git",
     "directory": "packages/client"
   },
-  "version": "1.2.2",
+  "version": "1.2.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "digiz3d",
@@ -15,7 +15,7 @@
     "prepublish": "tsc"
   },
   "dependencies": {
-    "@digiz3dtest/microservice-comments-common": "^1.2.0",
+    "@digiz3dtest/microservice-comments-common": "^1.2.3",
     "axios": "^0.27.2",
     "kafkajs": "^2.1.0",
     "nanoid": "^4.0.0"
